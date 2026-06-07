@@ -1,0 +1,26 @@
+[project]
+name = "excel-helper-widget"
+version = "0.1.0"
+description = "엑셀 헬프 위젯 — 목적 키워드로 엑셀 기능을 찾고 수식을 복사하는 데스크톱 위젯"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PyQt6>=6.6",
+    "pynput>=1.7",
+    "watchdog>=4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

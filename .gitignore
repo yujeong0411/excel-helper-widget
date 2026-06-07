@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 위젯 생성 산출물/설정
+tests/_preview.png
+tests/_tmp.json
+tests/_*.json

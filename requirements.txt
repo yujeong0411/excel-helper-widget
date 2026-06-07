@@ -1,0 +1,4 @@
+# uv 사용 권장: `uv sync`. 아래는 pip/PyInstaller 호환용.
+PyQt6>=6.6
+pynput>=1.7
+watchdog>=4.0
